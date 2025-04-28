@@ -1,0 +1,43 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    background-color: burlywood;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-weight: 900;
+}
+
+
+h4{
+    text-align: center;
+}
+
+.mycard{
+    border-radius: 4px;
+    background-color: rgba(222, 184, 135, 0.626);
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
