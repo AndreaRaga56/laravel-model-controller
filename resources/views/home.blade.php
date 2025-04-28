@@ -19,12 +19,17 @@
             @foreach ($movies as $current)
                 <div class="col">
                     <div class="mycard">
-                        <h4>{{ $current['title'] }}</h4>
-                        <p>({{ $current['original_title'] }})</p>
-                        <p>{{ $current['nationality'] }}</p>
-                        <p>{{ $current['date'] }}</p>
-                        <hr>
+                        <div class="card-body">
+                            <h4 class="card-title">{{ $current['title'] }}</h4>
+                            <p class="card-subtitle">({{ $current['original_title'] }})</p>
+                            <p class="card-subtitle">{{ $current['nationality'] }}</p>
+                            <p class="card-subtitle">{{ $current['date'] }}</p>
+                        </div>
+                        {{-- <hr> --}}
+                    <div class="card-footer">
                         <p>VOTO: {{ $current['vote'] }}</p>
+                    </div>
+
 
                     </div>
                 </div>
