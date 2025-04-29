@@ -25,10 +25,10 @@
                             <p class="card-subtitle">{{ $current['nationality'] }}</p>
                             <p class="card-subtitle">{{ $current['date'] }}</p>
                         </div>
-                        {{-- <hr> --}}
-                    <div class="card-footer">
-                        <p>VOTO: {{ $current['vote'] }}</p>
-                    </div>
+                        <hr>
+                        <div class="card-footer">
+                            <p>VOTO: {{ $current['vote'] }}</p>
+                        </div>
 
 
                     </div>
